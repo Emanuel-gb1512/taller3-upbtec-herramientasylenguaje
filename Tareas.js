@@ -20,7 +20,7 @@ function crearTarea() {
 }
 
 
-const continuar = prompt("Quieres agregar otra tarea?:");
+let continuar = prompt("Quieres agregar otra tarea?:");
 while (continuar){
   if (continuar == "si"){
     crearTarea();
